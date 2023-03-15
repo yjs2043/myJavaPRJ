@@ -1,8 +1,10 @@
-public class Hello {
-    public static void main(String[] args) {
-
+public class Hello
+{
+    public static void main(String[] args)
+    {
         System.out.println("Hello!! My First Java Coding!!");
         System.out.println("Can I ask what is coding?");
-        System.out.println("This thing makes my head ache");
+        System.out.println("This thing makes my head aching");
+        System.out.println("Good luck");
     }
 }
