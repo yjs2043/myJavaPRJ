@@ -7,21 +7,18 @@ public class Ex05_08 {
         System.out.printf("정수를 입력하세요 : ");
         a = s.nextInt();
 
-        if ( a >= 90)
+        if (a >= 90)
             System.out.printf("A");
+        else if (a >= 80)
+            System.out.printf("B");
+        else if (a >= 70)
+            System.out.printf("C");
+        else if (a <= 60)
+            System.out.printf("D");
         else
-            if ( a >= 80)
-                System.out.printf("B");
-                        else
-                            if (a >= 70)
-                                System.out.printf("C");
-                            else
-                                if (a <= 60)
-                                    System.out.printf("D");
-                                else
-                                    System.out.printf("F");
+            System.out.printf("F");
 
-                                System.out.printf(" 확정입니다. \n");
+        System.out.printf(" 확정입니다. \n");
 
     }
 }
